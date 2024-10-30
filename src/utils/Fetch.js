@@ -2,7 +2,7 @@ import BackupVillagers from "./VillagerBackup";
 
 // fetch Animal Crossing villagers from API
 async function FetchVillagers() {
-    const apiKey = '21923a71-3b43-467a-9eba-c5ba9e0ff62d';
+    const apiKey = 'API_KEY';
     const baseUrl = 'https://api.nookipedia.com/villager';
     const url = `${baseUrl}&api_key=${apiKey}`;
 
